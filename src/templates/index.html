@@ -1,16 +1,95 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>Blog Admin Dashboard</title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
-
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+  integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body>
-    my body goes here.
+  <header class="navbar navbar-expand navbar-dark  bg-dark flex-column flex-md-row bd-navbar">
+    <a class="navbar-brand mr-0 mr-md-2" href="/" aria-label="velblog">Logo</a>
+
+    <div class="navbar-nav-scroll">
+      <ul class="navbar-nav bd-navbar-nav flex-row">
+        <li class="nav-item">
+          <a class="nav-link " href="/">Home</a>
+        </li>
+      </ul>
+    </div>
+
+    <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+      <li class="dropdown nav-item">
+          <a class="dropdown-toggle nav-link p-2" href="#" role="button" id="dropdownNotifications" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-bell"></i>
+          </a>
+        
+          <div class="dropdown-menu dropdown-menu-lg-right" aria-labelledby="dropdownNotifications">
+            <a class="dropdown-item" href="#">You've got mail!</a>
+          </div>
+        </div>
+      </li>
+      <li class="dropdown nav-item">
+        <a class="dropdown-toggle nav-link p-2" href="#" role="button" id="dropdownNewMenu" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          <i class="fa fa-plus"></i>
+        </a>
+      
+        <div class="dropdown-menu dropdown-menu-lg-right" aria-labelledby="dropdownNewMenu">
+          <a class="dropdown-item" href="#">Create Post</a>
+          <a class="dropdown-item" href="#">Create User</a>
+        </div>
+        </div>
+      </li>
+      <li class="dropdown nav-item">
+        <a class="dropdown-toggle nav-link p-2" href="#" role="button" id="dropdownUserOptionsMenu" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          <i class="fa fa-user-circle"></i>
+        </a>
+      
+        <div class="dropdown-menu dropdown-menu-lg-right" aria-labelledby="dropdownUserOptionsMenu">
+          <a class="dropdown-item" href="#">Profile</a>
+          <a class="dropdown-item" href="#">Settings</a>
+          <a class="dropdown-item" href="#">Sign out</a>
+        </div>
+        </div>
+      </li>
+    </ul>
+  </header>
+
+  <div class="container-fluid vh-100">
+    <div class="row">
+      <div class="col-lg-2 vh-100 sidebar">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Posts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Comments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Users</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Settings</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col vh-100 content">
+        content
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>

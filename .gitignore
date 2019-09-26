@@ -8,6 +8,7 @@ npm-debug.log*
 # Directories
 node_modules/
 dist/
+public/
 
 # Optional npm cache directory
 .npm

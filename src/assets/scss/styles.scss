@@ -1,3 +1,60 @@
-body {
-    background: purple;
+/*!
+ * Copyright 2019. Daniel Cuesta, (https://dcuesta.com/). 
+ * Licensed under MIT. (https://github.com/dcuesta1/blogdash/blob/master/LICENSE)
+ * Forked from Boostrap v4.3.1 (https://getbootstrap.com/). Licensed under MIT. (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Forked from Normalize.css, licensed MIT under MIT. (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
+ * Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome | License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "./variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/utilities";
+@import "../../../node_modules/bootstrap/scss/reboot";
+
+
+@import "../../../node_modules/bootstrap/scss/grid";
+@import "../../../node_modules/bootstrap/scss/navbar";
+@import "../../../node_modules/bootstrap/scss/nav";
+@import "../../../node_modules/bootstrap/scss/dropdown";
+@import "../../../node_modules/bootstrap/scss/buttons";
+@import "../../../node_modules/bootstrap/scss/card";
+// @import "../../../node_modules/bootstrap/scss/utilities/display";
+// @import "../../../node_modules/bootstrap/scss/utilities/flex";
+// @import "../../../node_modules/bootstrap/scss/utilities/spacing";
+// @import "../../../node_modules/bootstrap/scss/utilities/sizing";
+
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.cf:before,
+.cf:after {
+  content: " "; 
+  display: table; 
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  zoom: 1;
+}
+
+.sidebar{
+  ul{
+    list-style: none;
+  }
+}
+
+.content{
+  background-image: linear-gradient(#008aa0, #25cedc);
 }
