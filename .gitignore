@@ -10,7 +10,7 @@ node_modules/
 dist/
 public/
 
-.idea
+.idea/
 
 # Optional npm cache directory
 .npm
